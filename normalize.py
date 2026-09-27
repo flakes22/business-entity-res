@@ -34,7 +34,10 @@ ADDRESS_REPLACEMENTS = {
     r'\bhwy\b': 'highway'
 }
 
-LEGAL_SUFFIXES_TO_REMOVE = r'\b(incorporated|corporation|limited|private|limited liability company|company)\b'
+# Multi-word phrases must precede their component words: regex alternation is
+# first-match, not longest-match, so "limited" would otherwise match first and
+# strand "liability company" behind (e.g. "acme llc" -> "acme  liability ").
+LEGAL_SUFFIXES_TO_REMOVE = r'\b(limited liability company|incorporated|corporation|limited|private|company)\b'
 
 def clean_text(text, replacements):
     """
