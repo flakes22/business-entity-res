@@ -1,0 +1,9 @@
+# Python 3.11.9 (64-bit). All libraries are permissively licensed (MIT / BSD / Apache-2.0).
+numpy==2.4.6
+pandas==3.0.5
+pyarrow==25.0.0
+scipy==1.17.1
+scikit-learn==1.7.0
+lightgbm==4.7.0
+RapidFuzz==3.14.6
+sparse-dot-topn==1.2.0
