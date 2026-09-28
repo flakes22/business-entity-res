@@ -1,7 +1,7 @@
 # ML Challenge 2026: Business Entity Resolution Solution
 
-**Team Name:** [Your Team Name]
-**Team Members:** Anagha Prajapati, Sarah Roomie, Mahek Desai
+**Team Name:** ML GIRLS 
+**Team Members:** Anagha Prajapati, Sarah Roomi, Mahek Desai
 **Submission Date:** 27 September 2026
 
 ---

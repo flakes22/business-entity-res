@@ -37,4 +37,4 @@ The challenge dataset is not included. Place it as described in the pipeline REA
 
 ## Team
 
-Anagha Prajapati, Sarah Roomie, Mahek Desai
+Anagha Prajapati, Sarah Roomi, Mahek Desai
